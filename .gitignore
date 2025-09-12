@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.venv/
+env/
+venv/
+.ipynb_checkpoints/
+
+# Project artifacts
+data/
+models/
+outputs/
+
+# OS
+.DS_Store
