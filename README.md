@@ -117,9 +117,4 @@ git push -u origin main
 > อย่าลืม commit ทีละก้อนงาน (atomic commit) พร้อมข้อความสั้นๆ ชัดเจน
 
 ---
-
-## License
-MIT (แก้เป็นที่ต้องการได้)
-
-> สงสัยตรงไหนหรืออยากต่อยอดเป็น CNN (เช่น ResNet) บอกได้เลย :)
 # defect-classifier-starter
