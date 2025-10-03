@@ -93,28 +93,7 @@ python visualize_samples.py --k 12
 - **HOG (Histogram of Oriented Gradients)**: จับรูปแบบเส้นขอบ/ทิศทางขอบภาพ เหมาะกับรอยขีด/เส้น
 - **Stats (สถิติพื้นฐาน)**: mean, std, edge density (สัดส่วนขอบภาพ), high‑gradient ratio ฯลฯ
 
----
 
-## ทิปสำหรับ GitHub (รวมวิธีแก้ push แบบ non-fast-forward)
-```bash
-# เริ่ม repo ใหม่
-git init
-git add .
-git commit -m "feat: initial defect classifier starter"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-
-# ถ้า push แล้วโดนปฏิเสธ (non-fast-forward)
-# 1) ดึงของเดิมมาก่อน + merge/rebase
-git pull --rebase origin main
-# 2) แล้วค่อย push
-git push -u origin main
-
-# ถ้าอยากแทรกลิงก์ไปยัง repo อื่นใน README
-# - แก้ README.md แล้วเพิ่มลิงก์ markdown ปกติ เช่น
-# [Sensor Data Drift Analyzer](https://github.com/paweethida-1/Sensor-Data-Drift-Analyzer)
-```
-> อย่าลืม commit ทีละก้อนงาน (atomic commit) พร้อมข้อความสั้นๆ ชัดเจน
 
 ---
-# defect-classifier-starter
+
