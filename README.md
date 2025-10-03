@@ -113,6 +113,4 @@ python visualize_samples.py --k 12
 
 ---
 
-### 🔹 Classification Report
-ไฟล์ `outputs/classification_report.txt`  
-ตัวอย่างเนื้อหา:
+
